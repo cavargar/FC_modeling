@@ -1,0 +1,1262 @@
+% references.bib — bibliography for
+%   reports/Field capacity in soil moisture modeling.md
+%
+% Verification status
+%   * Entries for the repository papers were checked against the papers' own
+%     text (title pages / citation lines).
+%   * Other entries were compiled from the report's links, the research notes,
+%     web-search abstracts and standard bibliographic knowledge. Publisher pages
+%     and Crossref could not be reached from the session, so DOIs/pages were not
+%     resolved automatically.
+%   * Any entry with a "note = {UNVERIFIED: ...}" field has at least one field
+%     that could not be confirmed; check it before citing.
+%
+% Sections: (1) repository papers, (2) concepts and definitions,
+% (3) estimation methods and PTFs, (4) stochastic and bucket models,
+% (5) process, crop and land-surface models, (6) pore structure dynamics,
+% (7) tropical and Colombian soils, (8) manuals, glossaries and grey literature.
+
+%% ------------------------------------------------------------------------
+%% (1) Repository papers (cavargar/FC_modeling) -- checked against the files
+%% ------------------------------------------------------------------------
+
+@article{Laio2001Probabilistic,
+  author  = {Laio, Francesco and Porporato, Amilcare and Ridolfi, Luca and Rodriguez-Iturbe, Ignacio},
+  title   = {Plants in water-controlled ecosystems: active role in hydrologic processes and response to water stress {II}. {P}robabilistic soil moisture dynamics},
+  journal = {Advances in Water Resources},
+  year    = {2001},
+  volume  = {24},
+  number  = {7},
+  pages   = {707--723},
+  doi     = {10.1016/S0309-1708(01)00005-7},
+  note    = {Repository file: 1-s2.0-S0309170801000057-main.md}
+}
+
+@article{Pelak2019Dynamic,
+  author  = {Pelak, Norman and Porporato, Amilcare},
+  title   = {Dynamic evolution of the soil pore size distribution and its connection to soil management and biogeochemical processes},
+  journal = {Advances in Water Resources},
+  year    = {2019},
+  volume  = {131},
+  pages   = {103384},
+  doi     = {10.1016/j.advwatres.2019.103384},
+  note    = {Repository file: 1-s2.0-S0309170819303124-main.md}
+}
+
+@article{Daly2006Impact,
+  author  = {Daly, Edoardo and Porporato, Amilcare},
+  title   = {Impact of hydroclimatic fluctuations on the soil water balance},
+  journal = {Water Resources Research},
+  year    = {2006},
+  volume  = {42},
+  pages   = {W06401},
+  doi     = {10.1029/2005WR004606},
+  note    = {Repository file: Water Resources Research - 2006 - Daly - Impact of hydroclimatic fluctuations on the soil water balance.md}
+}
+
+@article{Rigby2006Simplified,
+  author  = {Rigby, J. R. and Porporato, Amilcare},
+  title   = {Simplified stochastic soil-moisture models: a look at infiltration},
+  journal = {Hydrology and Earth System Sciences},
+  year    = {2006},
+  volume  = {10},
+  pages   = {861--871},
+  doi     = {10.5194/hess-10-861-2006},
+  note    = {Repository file: hess-10-861-2006.md}
+}
+
+@article{Alizadeh2013Coupled,
+  author  = {Alizadeh, Hosein and Mousavi, S. Jamshid},
+  title   = {Coupled stochastic soil moisture simulation-optimization model of deficit irrigation},
+  journal = {Water Resources Research},
+  year    = {2013},
+  volume  = {49},
+  pages   = {4100--4113},
+  doi     = {10.1002/wrcr.20282},
+  note    = {Repository file: alizadeh2013.md}
+}
+
+@article{Bean2018Estimating,
+  author  = {Bean, Eban Z. and Huffaker, Ray G. and Migliaccio, Kati W.},
+  title   = {Estimating field capacity from volumetric soil water content time series using automated processing algorithms},
+  journal = {Vadose Zone Journal},
+  year    = {2018},
+  volume  = {17},
+  pages   = {180073},
+  doi     = {10.2136/vzj2018.04.0073},
+  note    = {Repository file: field_capacity_volumetric_water_content.md}
+}
+
+@article{Liu2025Spatiotemporal,
+  author  = {Liu, Quanru and Wang, Zongzhi and Cheng, Liang and Bai, Ying and Wang, Kun and Zhang, Yongbing},
+  title   = {Spatiotemporal simulation of soil moisture in typical ecosystems of {N}orthern {C}hina: a methodological exploration using {HYDRUS-1D}},
+  journal = {Agronomy},
+  year    = {2025},
+  volume  = {15},
+  pages   = {1973},
+  doi     = {10.3390/agronomy15081973},
+  note    = {Repository file: agronomy_hydrus1d_2018.md (the filename year is wrong; published 2025)}
+}
+
+@article{Or2000Stochastic,
+  author  = {Or, Dani and Leij, Feike J. and Snyder, Victor and Ghezzehei, Teamrat A.},
+  title   = {Stochastic model for posttillage soil pore space evolution},
+  journal = {Water Resources Research},
+  year    = {2000},
+  volume  = {36},
+  number  = {7},
+  pages   = {1641--1652},
+  doi     = {10.1029/2000WR900092},
+  note    = {Repository file: or2000.md. UNVERIFIED: volume, pages and DOI are not printed in the repository copy}
+}
+
+@article{Bovier2026Space,
+  author  = {Bovier, Maria Chiara and Fedotov, Sergei and Ferraris, Stefano and Gentile, Alessio and Toaldo, Bruno},
+  title   = {Space-dependent continuous time random walk for soil moisture modeling},
+  journal = {Advances in Water Resources},
+  year    = {2026},
+  url     = {https://iris.unito.it/handle/2318/2133272},
+  note    = {Repository file: awr.md. UNVERIFIED: volume, article number and DOI not found; year 2026 from the University of Turin repository record}
+}
+
+@misc{Gandhi2025FlowKick,
+  author        = {Gandhi, Punit and Oline, Matthew and Silber, Mary},
+  title         = {A flow-kick model of dryland vegetation patterns: the impact of rainfall variability on resilience},
+  year          = {2025},
+  eprint        = {2501.01569},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2501.01569},
+  note          = {Repository file: 2501.01569v1.md (preprint, v1 dated 6 January 2025)}
+}
+
+%% ------------------------------------------------------------------------
+%% (2) Concepts and definitions of field capacity
+%% ------------------------------------------------------------------------
+
+@techreport{Briggs1907Moisture,
+  author      = {Briggs, Lyman J. and McLane, John W.},
+  title       = {The moisture equivalents of soils},
+  institution = {U.S. Department of Agriculture, Bureau of Soils},
+  type        = {Bulletin},
+  number      = {45},
+  year        = {1907}
+}
+
+@article{Veihmeyer1931Moisture,
+  author  = {Veihmeyer, F. J. and Hendrickson, A. H.},
+  title   = {The moisture equivalent as a measure of the field capacity of soils},
+  journal = {Soil Science},
+  year    = {1931},
+  volume  = {32},
+  number  = {3},
+  pages   = {181--194}
+}
+
+@article{Richards1944Moisture,
+  author  = {Richards, L. A. and Weaver, L. R.},
+  title   = {Moisture retention by some irrigated soils as related to soil-moisture tension},
+  journal = {Journal of Agricultural Research},
+  year    = {1944},
+  volume  = {69},
+  pages   = {215--235}
+}
+
+@article{Colman1947Proposed,
+  author  = {Colman, E. A.},
+  title   = {A laboratory procedure for determining the field capacity of soils},
+  journal = {Soil Science},
+  year    = {1947},
+  volume  = {63},
+  pages   = {277--283}
+}
+
+@techreport{Hall1977Water,
+  author      = {Hall, D. G. M. and Reeve, M. J. and Thomasson, A. J. and Wright, V. F.},
+  title       = {Water retention, porosity and density of field soils},
+  institution = {Soil Survey of England and Wales},
+  type        = {Technical Monograph},
+  number      = {9},
+  address     = {Harpenden},
+  year        = {1977}
+}
+
+@book{Hillel1998Environmental,
+  author    = {Hillel, Daniel},
+  title     = {Environmental Soil Physics},
+  publisher = {Academic Press},
+  address   = {San Diego},
+  year      = {1998}
+}
+
+@article{Nachabe1998Refining,
+  author  = {Nachabe, Mahmood H.},
+  title   = {Refining the definition of field capacity in the literature},
+  journal = {Journal of Irrigation and Drainage Engineering},
+  year    = {1998},
+  volume  = {124},
+  number  = {4},
+  pages   = {230--232},
+  doi     = {10.1061/(ASCE)0733-9437(1998)124:4(230)}
+}
+
+@article{Meyer1999Flux,
+  author  = {Meyer, Philip D. and Gee, Glendon W.},
+  title   = {Flux-based estimation of field capacity},
+  journal = {Journal of Geotechnical and Geoenvironmental Engineering},
+  year    = {1999},
+  volume  = {125},
+  number  = {7},
+  pages   = {595--599},
+  doi     = {10.1061/(ASCE)1090-0241(1999)125:7(595)}
+}
+
+@article{Twarakavi2009Objective,
+  author  = {Twarakavi, Navin K. C. and Sakai, Masaru and {\v{S}}im{\r{u}}nek, Ji{\v{r}}{\'\i}},
+  title   = {An objective analysis of the dynamic nature of field capacity},
+  journal = {Water Resources Research},
+  year    = {2009},
+  volume  = {45},
+  pages   = {W10410},
+  doi     = {10.1029/2009WR007944}
+}
+
+@article{Assouline2014Concept,
+  author  = {Assouline, Shmuel and Or, Dani},
+  title   = {The concept of field capacity revisited: defining intrinsic static and dynamic criteria for soil internal drainage dynamics},
+  journal = {Water Resources Research},
+  year    = {2014},
+  volume  = {50},
+  number  = {6},
+  pages   = {4787--4802},
+  doi     = {10.1002/2014WR015475}
+}
+
+@article{deJongvanLier2016Reexamination,
+  author  = {de Jong van Lier, Quirijn and Wendroth, Ole},
+  title   = {Reexamination of the field capacity concept in a {B}razilian {O}xisol},
+  journal = {Soil Science Society of America Journal},
+  year    = {2016},
+  volume  = {80},
+  number  = {2},
+  pages   = {264--274},
+  doi     = {10.2136/sssaj2015.01.0035},
+  note    = {UNVERIFIED: volume, pages and DOI}
+}
+
+@article{deJongvanLier2017Field,
+  author  = {de Jong van Lier, Quirijn},
+  title   = {Field capacity, a valid upper limit of crop available water?},
+  journal = {Agricultural Water Management},
+  year    = {2017},
+  volume  = {193},
+  pages   = {214--220},
+  doi     = {10.1016/j.agwat.2017.08.017},
+  note    = {UNVERIFIED: DOI}
+}
+
+@article{Turek2019Inflection,
+  author  = {Turek, Maria Eliza and others},
+  title   = {Field capacity estimated from the soil water retention curve inflection point},
+  journal = {European Journal of Soil Science},
+  year    = {2019},
+  doi     = {10.1111/ejss.12747},
+  note    = {UNVERIFIED: exact title, co-authors, volume and pages; DOI from the report link}
+}
+
+@article{Turek2020Estimation,
+  author  = {Turek, Maria Eliza and de Jong van Lier, Quirijn and Armindo, Robson Andr{\'e}},
+  title   = {Estimation and mapping of field capacity in {B}razilian soils},
+  journal = {Geoderma},
+  year    = {2020},
+  volume  = {376},
+  pages   = {114557},
+  doi     = {10.1016/j.geoderma.2020.114557},
+  note    = {Authors and DOI confirmed from the CAPES repository record. UNVERIFIED: volume}
+}
+
+@article{Turek2022Parameterizing,
+  author  = {Turek, Maria Eliza and others},
+  title   = {Parameterizing field capacity as the upper limit of available water in bucket-type hydrological models},
+  journal = {Computers and Electronics in Agriculture},
+  year    = {2022},
+  volume  = {194},
+  pages   = {106801},
+  url     = {https://www.sciencedirect.com/science/article/abs/pii/S0168169922001181},
+  note    = {UNVERIFIED: co-authors and DOI; title from a repository record, volume and article number from the ADS bibcode}
+}
+
+@article{Chen2024Dynamic,
+  author  = {Chen and others},
+  title   = {Dynamic and empirical methods for field capacity estimation in fine textured soils with a coarse interlayer},
+  journal = {Geoderma},
+  year    = {2024},
+  volume  = {449},
+  pages   = {117000},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0016706124002295},
+  note    = {UNVERIFIED: authors (first author given as Chen in the research notes) and DOI}
+}
+
+@article{Krueger2024Traditional,
+  author  = {Krueger, Erik S. and Ochsner, Tyson E.},
+  title   = {Traditional matric potential thresholds underestimate soil moisture at field capacity across {O}klahoma},
+  journal = {Soil Science Society of America Journal},
+  year    = {2024},
+  doi     = {10.1002/saj2.20733},
+  note    = {UNVERIFIED: volume and pages}
+}
+
+%% ------------------------------------------------------------------------
+%% (3) Estimation methods and pedotransfer functions
+%% ------------------------------------------------------------------------
+
+@article{Bittelli2009Errors,
+  author  = {Bittelli, Marco and Flury, Markus},
+  title   = {Errors in water retention curves determined with pressure plates},
+  journal = {Soil Science Society of America Journal},
+  year    = {2009},
+  volume  = {73},
+  number  = {5},
+  pages   = {1453--1460},
+  doi     = {10.2136/sssaj2008.0082}
+}
+
+@article{Solone2012Errors,
+  author  = {Solone, R. and Bittelli, M. and Tomei, F. and Morari, F.},
+  title   = {Errors in water retention curves determined with pressure plates: effects on the soil water balance},
+  journal = {Journal of Hydrology},
+  year    = {2012},
+  volume  = {470--471},
+  pages   = {65--74},
+  doi     = {10.1016/j.jhydrol.2012.08.017}
+}
+
+@misc{Pachepsky2008FieldCapacity,
+  author       = {Pachepsky, Yakov A. and Nemes, Attila and Hamilton, Gordon},
+  title        = {Field capacity versus water retention at -33 kPa: data from 30 {US} locations},
+  howpublished = {ASA-CSSA-SSSA Annual Meeting abstract, Houston, TX},
+  year         = {2008},
+  url          = {https://scisoc.confex.com/crops/2008am/webprogram/Paper44656.html},
+  note         = {UNVERIFIED: exact abstract title}
+}
+
+@inproceedings{Nemes2010Estimating,
+  author    = {Nemes, Attila and Pachepsky, Yakov A. and Timlin, Dennis J.},
+  title     = {Toward improving global estimates of field soil water capacity},
+  booktitle = {Proceedings of the 19th World Congress of Soil Science: Soil Solutions for a Changing World},
+  address   = {Brisbane, Australia},
+  year      = {2010},
+  url       = {https://old.iuss.org/19th%20WCSS/Symposium/pdf/0021.pdf},
+  note      = {UNVERIFIED: exact paper title}
+}
+
+@article{Schaap2001Rosetta,
+  author  = {Schaap, Marcel G. and Leij, Feike J. and van Genuchten, Martinus Th.},
+  title   = {{ROSETTA}: a computer program for estimating soil hydraulic parameters with hierarchical pedotransfer functions},
+  journal = {Journal of Hydrology},
+  year    = {2001},
+  volume  = {251},
+  number  = {3--4},
+  pages   = {163--176},
+  doi     = {10.1016/S0022-1694(01)00466-8}
+}
+
+@article{Zhang2017Rosetta3,
+  author  = {Zhang, Yonggen and Schaap, Marcel G.},
+  title   = {Weighted recalibration of the {R}osetta pedotransfer model with improved estimates of hydraulic parameter distributions and summary statistics ({R}osetta3)},
+  journal = {Journal of Hydrology},
+  year    = {2017},
+  volume  = {547},
+  pages   = {39--53},
+  doi     = {10.1016/j.jhydrol.2017.01.004}
+}
+
+@article{Saxton2006Soil,
+  author  = {Saxton, K. E. and Rawls, W. J.},
+  title   = {Soil water characteristic estimates by texture and organic matter for hydrologic solutions},
+  journal = {Soil Science Society of America Journal},
+  year    = {2006},
+  volume  = {70},
+  number  = {5},
+  pages   = {1569--1578},
+  doi     = {10.2136/sssaj2005.0117}
+}
+
+@article{Toth2015New,
+  author  = {T{\'o}th, B. and Weynants, M. and Nemes, A. and Mak{\'o}, A. and Bilas, G. and T{\'o}th, G.},
+  title   = {New generation of hydraulic pedotransfer functions for {E}urope},
+  journal = {European Journal of Soil Science},
+  year    = {2015},
+  volume  = {66},
+  number  = {1},
+  pages   = {226--238},
+  doi     = {10.1111/ejss.12192}
+}
+
+@article{McColl2017Global,
+  author  = {McColl, Kaighin A. and Wang, Wei and Peng, Bin and Akbar, Ruzbeh and Short Gianotti, Daniel J. and Lu, Hui and Pan, Ming and Entekhabi, Dara},
+  title   = {Global characterization of surface soil moisture drydowns},
+  journal = {Geophysical Research Letters},
+  year    = {2017},
+  volume  = {44},
+  number  = {8},
+  pages   = {3682--3690},
+  doi     = {10.1002/2017GL072819},
+  note    = {Cited in the report via HESS 22:1649 (2018). UNVERIFIED: full author list}
+}
+
+@misc{FutureWater2020HiHydroSoil,
+  author       = {Simons, G. W. H. and Koster, R. and Droogers, P.},
+  title        = {{HiHydroSoil} v2.0 -- High resolution soil maps of global hydraulic properties},
+  howpublished = {FutureWater Report 213},
+  year         = {2020},
+  url          = {https://www.futurewater.nl/wp-content/uploads/2020/10/HiHydroSoil-v2.0-High-Resolution-Soil-Maps-of-Global-Hydraulic-Properties_v2.pdf},
+  note         = {UNVERIFIED: authors and report number}
+}
+
+@article{IndianJAgricSci_FC,
+  author  = {{Indian Journal of Agricultural Sciences}},
+  title   = {Comparison of in situ field capacity with laboratory water retention at 10 and 33 kPa},
+  journal = {Indian Journal of Agricultural Sciences},
+  url     = {https://epubs.icar.org.in/index.php/IJAgS/article/view/30114},
+  note    = {UNVERIFIED: authors, title, year, volume and pages; descriptive title only}
+}
+
+@article{AreeoRFPTF,
+  author  = {{Journal of Soil Research (AREEO)}},
+  title   = {Random forest and nonlinear regression pedotransfer functions for soil water retention (223 samples, {I}ran)},
+  url     = {https://journals.areeo.ac.ir/article_100011.html},
+  note    = {UNVERIFIED: authors, title, journal, year; descriptive title only}
+}
+
+%% ------------------------------------------------------------------------
+%% (4) Stochastic and bucket soil-moisture models
+%% ------------------------------------------------------------------------
+
+@book{RodriguezIturbe2004Ecohydrology,
+  author    = {Rodriguez-Iturbe, Ignacio and Porporato, Amilcare},
+  title     = {Ecohydrology of Water-Controlled Ecosystems: Soil Moisture and Plant Dynamics},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {2004}
+}
+
+@article{RodriguezIturbe1999Probabilistic,
+  author  = {Rodriguez-Iturbe, I. and Porporato, A. and Ridolfi, L. and Isham, V. and Cox, D. R.},
+  title   = {Probabilistic modelling of water balance at a point: the role of climate, soil and vegetation},
+  journal = {Proceedings of the Royal Society of London A},
+  year    = {1999},
+  volume  = {455},
+  pages   = {3789--3805},
+  doi     = {10.1098/rspa.1999.0477}
+}
+
+@article{Porporato2004Soil,
+  author  = {Porporato, Amilcare and Daly, Edoardo and Rodriguez-Iturbe, Ignacio},
+  title   = {Soil water balance and ecosystem response to climate change},
+  journal = {The American Naturalist},
+  year    = {2004},
+  volume  = {164},
+  number  = {5},
+  pages   = {625--632},
+  doi     = {10.1086/424970}
+}
+
+@article{Milly1993Analytic,
+  author  = {Milly, P. C. D.},
+  title   = {An analytic solution of the stochastic storage problem applicable to soil water},
+  journal = {Water Resources Research},
+  year    = {1993},
+  volume  = {29},
+  number  = {11},
+  pages   = {3755--3758},
+  doi     = {10.1029/93WR01934}
+}
+
+@article{Manabe1969Climate,
+  author  = {Manabe, Syukuro},
+  title   = {Climate and the ocean circulation: {I}. {T}he atmospheric circulation and the hydrology of the earth's surface},
+  journal = {Monthly Weather Review},
+  year    = {1969},
+  volume  = {97},
+  number  = {11},
+  pages   = {739--774}
+}
+
+@article{Guswa2002Models,
+  author  = {Guswa, Andrew J. and Celia, M. A. and Rodriguez-Iturbe, I.},
+  title   = {Models of soil moisture dynamics in ecohydrology: a comparative study},
+  journal = {Water Resources Research},
+  year    = {2002},
+  volume  = {38},
+  number  = {9},
+  pages   = {1166},
+  doi     = {10.1029/2001WR000826}
+}
+
+@article{Vico2010Traditional,
+  author  = {Vico, Giulia and Porporato, Amilcare},
+  title   = {Traditional and microirrigation with stochastic soil moisture},
+  journal = {Water Resources Research},
+  year    = {2010},
+  volume  = {46},
+  pages   = {W03509},
+  doi     = {10.1029/2009WR008130}
+}
+
+@article{Romano2011Parameterization,
+  author  = {Romano, N. and Palladino, M. and Chirico, G. B.},
+  title   = {Parameterization of a bucket model for soil-vegetation-atmosphere modeling under seasonal climatic regimes},
+  journal = {Hydrology and Earth System Sciences},
+  year    = {2011},
+  volume  = {15},
+  pages   = {3877--3893},
+  doi     = {10.5194/hess-15-3877-2011}
+}
+
+@article{Bassiouni2018Probabilistic,
+  author  = {Bassiouni, Maoya and Higgins, Chad W. and Still, Christopher J. and Good, Stephen P.},
+  title   = {Probabilistic inference of ecohydrological parameters using observations from point to satellite scales},
+  journal = {Hydrology and Earth System Sciences},
+  year    = {2018},
+  volume  = {22},
+  pages   = {3229--3243},
+  doi     = {10.5194/hess-22-3229-2018}
+}
+
+@article{Clapp1978Empirical,
+  author  = {Clapp, Roger B. and Hornberger, George M.},
+  title   = {Empirical equations for some soil hydraulic properties},
+  journal = {Water Resources Research},
+  year    = {1978},
+  volume  = {14},
+  number  = {4},
+  pages   = {601--604},
+  doi     = {10.1029/WR014i004p00601}
+}
+
+@techreport{Brooks1964Hydraulic,
+  author      = {Brooks, R. H. and Corey, A. T.},
+  title       = {Hydraulic properties of porous media},
+  institution = {Colorado State University},
+  type        = {Hydrology Papers},
+  number      = {3},
+  address     = {Fort Collins, CO},
+  year        = {1964}
+}
+
+@article{Mualem1976New,
+  author  = {Mualem, Yechezkel},
+  title   = {A new model for predicting the hydraulic conductivity of unsaturated porous media},
+  journal = {Water Resources Research},
+  year    = {1976},
+  volume  = {12},
+  number  = {3},
+  pages   = {513--522},
+  doi     = {10.1029/WR012i003p00513}
+}
+
+%% ------------------------------------------------------------------------
+%% (5) Process-based, crop and land-surface models
+%% ------------------------------------------------------------------------
+
+@book{Allen1998FAO56,
+  author    = {Allen, Richard G. and Pereira, Luis S. and Raes, Dirk and Smith, Martin},
+  title     = {Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements},
+  series    = {FAO Irrigation and Drainage Paper},
+  number    = {56},
+  publisher = {FAO},
+  address   = {Rome},
+  year      = {1998},
+  url       = {https://www.fao.org/3/x0490e/x0490e0e.htm}
+}
+
+@manual{FAO_AquaCrop_Ch2,
+  author       = {Raes, Dirk and Steduto, Pasquale and Hsiao, Theodore C. and Fereres, Elias},
+  title        = {{AquaCrop} Reference Manual, Chapter 2: Users guide},
+  organization = {FAO},
+  address      = {Rome},
+  url          = {https://www.fao.org/fileadmin/user_upload/faowater/docs/AquaCropChapter2.pdf},
+  note         = {UNVERIFIED: manual version and year}
+}
+
+@techreport{Neitsch2011SWAT,
+  author      = {Neitsch, S. L. and Arnold, J. G. and Kiniry, J. R. and Williams, J. R.},
+  title       = {Soil and Water Assessment Tool Theoretical Documentation, Version 2009},
+  institution = {Texas Water Resources Institute},
+  type        = {Technical Report},
+  number      = {406},
+  address     = {College Station, TX},
+  year        = {2011},
+  url         = {https://swat.tamu.edu/media/99192/swat2009-theory.pdf}
+}
+
+@article{Cosby1984Statistical,
+  author  = {Cosby, B. J. and Hornberger, G. M. and Clapp, R. B. and Ginn, T. R.},
+  title   = {A statistical exploration of the relationships of soil moisture characteristics to the physical properties of soils},
+  journal = {Water Resources Research},
+  year    = {1984},
+  volume  = {20},
+  number  = {6},
+  pages   = {682--690},
+  doi     = {10.1029/WR020i006p00682}
+}
+
+@article{Chen2001Coupling,
+  author  = {Chen, Fei and Dudhia, Jimy},
+  title   = {Coupling an advanced land surface--hydrology model with the {P}enn {S}tate--{NCAR} {MM5} modeling system. {P}art {I}: {M}odel implementation and sensitivity},
+  journal = {Monthly Weather Review},
+  year    = {2001},
+  volume  = {129},
+  number  = {4},
+  pages   = {569--585},
+  doi     = {10.1175/1520-0493(2001)129<0569:CAALSH>2.0.CO;2}
+}
+
+@techreport{NoahMPTechnote,
+  author      = {Niu, Guo-Yue},
+  title       = {The Community {N}oah Land Surface Model with Multi-Physics Options ({Noah-MP}): Technical Description},
+  institution = {University of Arizona / University of Texas at Austin},
+  year        = {2011},
+  url         = {https://www.jsg.utexas.edu/noah-mp/files/Noah-MP_Technote_v0.2.pdf},
+  note        = {UNVERIFIED: author list and year of the v0.2 technote}
+}
+
+@article{Shelia2018Coupling,
+  author  = {Shelia, Vakhtang and {\v{S}}im{\r{u}}nek, Ji{\v{r}}{\'\i} and Boote, Ken and Hoogenboom, Gerrit},
+  title   = {Coupling {DSSAT} and {HYDRUS-1D} for simulations of soil water dynamics in the soil-plant-atmosphere system},
+  journal = {Journal of Hydrology and Hydromechanics},
+  year    = {2018},
+  volume  = {66},
+  number  = {2},
+  pages   = {232--245},
+  doi     = {10.1515/johh-2017-0055}
+}
+
+@article{Longo2021EPIC,
+  author  = {Longo and others},
+  title   = {Comparison of {R}ichards-equation and tipping-bucket soil water submodels in {EPIC}},
+  journal = {Vadose Zone Journal},
+  year    = {2021},
+  volume  = {20},
+  pages   = {e20142},
+  doi     = {10.1002/vzj2.20142},
+  note    = {UNVERIFIED: authors and exact title (descriptive title); DOI from the report link}
+}
+
+@article{Ruget2002Sensitivity,
+  author  = {Ruget, Fran{\c{c}}oise and Brisson, Nadine and Del{\'e}colle, Richard and Faivre, Robert},
+  title   = {Sensitivity analysis of a crop simulation model, {STICS}, in order to choose the main parameters to be estimated},
+  journal = {Agronomie},
+  year    = {2002},
+  volume  = {22},
+  number  = {2},
+  pages   = {133--158},
+  doi     = {10.1051/agro:2002009}
+}
+
+@article{FCR2018PAWC,
+  author  = {{Field Crops Research}},
+  title   = {How well do we need to estimate plant-available water capacity to simulate water-limited yield potential?},
+  journal = {Field Crops Research},
+  year    = {2018},
+  url     = {https://www.sciencedirect.com/science/article/abs/pii/S037837741831432X},
+  note    = {UNVERIFIED: authors, volume and pages; title from the research notes}
+}
+
+@article{Chapagain2023APSIM,
+  author  = {Chapagain and others},
+  title   = {Structural uncertainty of {APSIM} soil water and crop models across {F}erralsols, {A}lisols and {C}hernozems},
+  journal = {Frontiers in Agronomy},
+  year    = {2023},
+  volume  = {5},
+  pages   = {1213074},
+  doi     = {10.3389/fagro.2023.1213074},
+  note    = {UNVERIFIED: authors and exact title (descriptive title)}
+}
+
+@article{Yimam2025NoahMP,
+  author  = {Yimam and others},
+  title   = {Replacing {N}oah-{MP} default soil parameters with measured {NCSS} soil hydraulic data in {T}exas},
+  journal = {Agrosystems, Geosciences \& Environment},
+  year    = {2025},
+  doi     = {10.1002/agg2.70048},
+  note    = {UNVERIFIED: authors, exact title (descriptive title), volume}
+}
+
+@article{HESS2025NoahMPSoils,
+  author  = {{HESS}},
+  title   = {Implementing global soil databases in {N}oah-{MP}},
+  journal = {Hydrology and Earth System Sciences},
+  year    = {2025},
+  volume  = {29},
+  pages   = {2551},
+  url     = {https://hess.copernicus.org/articles/29/2551/2025/},
+  note    = {UNVERIFIED: authors, exact title (descriptive title), page range}
+}
+
+@article{Panthi2025AquaCropRichards,
+  author  = {Panthi and others},
+  title   = {Coupling {A}qua{C}rop with a {R}ichards-equation soil water solver},
+  journal = {Irrigation and Drainage},
+  year    = {2025},
+  doi     = {10.1002/ird.70172},
+  note    = {UNVERIFIED: authors, exact title (descriptive title), volume and pages}
+}
+
+@techreport{UNFCCC_DSSAT,
+  author      = {{UNFCCC Consultative Group of Experts}},
+  title       = {{DSSAT} calibration and validation (training material, agriculture sector)},
+  institution = {UNFCCC},
+  url         = {https://unfccc.int/files/national_reports/non-annex_i_natcom/cge/application/pdf/agriculture.dssatvalidation.pdf},
+  note        = {UNVERIFIED: authors, title and year}
+}
+
+%% ------------------------------------------------------------------------
+%% (6) Pore structure, management and temporal dynamics
+%% ------------------------------------------------------------------------
+
+@article{Mapa1986Temporal,
+  author  = {Mapa, R. B. and Green, R. E. and Santo, L.},
+  title   = {Temporal variability of soil hydraulic properties with wetting and drying subsequent to tillage},
+  journal = {Soil Science Society of America Journal},
+  year    = {1986},
+  volume  = {50},
+  number  = {5},
+  pages   = {1133--1138},
+  doi     = {10.2136/sssaj1986.03615995005000050007x}
+}
+
+@article{Ahuja1998Changes,
+  author  = {Ahuja, L. R. and Fiedler, F. and Dunn, G. H. and Benjamin, J. G. and Garrison, A.},
+  title   = {Changes in soil water retention curves due to tillage and natural reconsolidation},
+  journal = {Soil Science Society of America Journal},
+  year    = {1998},
+  volume  = {62},
+  number  = {5},
+  pages   = {1228--1233},
+  doi     = {10.2136/sssaj1998.03615995006200050011x}
+}
+
+@article{Zhang2017SSSAJ,
+  author  = {Zhang and others},
+  title   = {Wetting--drying cycles and the evolution of soil water retention after tillage},
+  journal = {Soil Science Society of America Journal},
+  year    = {2017},
+  doi     = {10.2136/sssaj2017.01.0038},
+  note    = {UNVERIFIED: authors, exact title (descriptive title), volume and pages}
+}
+
+@article{Strudley2008Tillage,
+  author  = {Strudley, Mark W. and Green, Timothy R. and Ascough, James C., II},
+  title   = {Tillage effects on soil hydraulic properties in space and time: state of the science},
+  journal = {Soil and Tillage Research},
+  year    = {2008},
+  volume  = {99},
+  number  = {1},
+  pages   = {4--48},
+  doi     = {10.1016/j.still.2008.01.007}
+}
+
+@article{Bodner2013Environmental,
+  author  = {Bodner, G. and Scholl, P. and Loiskandl, W. and Kaul, H.-P.},
+  title   = {Environmental and management influences on temporal variability of near saturated soil hydraulic properties},
+  journal = {Geoderma},
+  year    = {2013},
+  volume  = {204--205},
+  pages   = {120--129},
+  doi     = {10.1016/j.geoderma.2013.04.015}
+}
+
+@article{Schwen2011Temporal,
+  author  = {Schwen, A. and Bodner, G. and Scholl, P. and Buchan, G. D. and Loiskandl, W.},
+  title   = {Temporal dynamics of soil hydraulic properties and the water-conducting porosity under different tillage},
+  journal = {Soil and Tillage Research},
+  year    = {2011},
+  volume  = {113},
+  number  = {2},
+  pages   = {89--98},
+  doi     = {10.1016/j.still.2011.02.005},
+  note    = {UNVERIFIED: the report links an Agricultural Water Management article (PII S0378377411001879), possibly the companion paper Schwen et al. (2011) "Time-variable soil hydraulic properties in near-surface soil water simulations for different tillage methods"; check which one is meant}
+}
+
+@article{Chandrasekhar2018Why,
+  author  = {Chandrasekhar, Parvathy and Kreiselmeier, Janis and Schwen, Andreas and Weninger, Thomas and Julich, Stefan and Feger, Karl-Heinz and Schw{\"a}rzel, Kai},
+  title   = {Why we should include soil structural dynamics of agricultural soils in hydrological models},
+  journal = {Water},
+  year    = {2018},
+  volume  = {10},
+  number  = {12},
+  pages   = {1862},
+  doi     = {10.3390/w10121862}
+}
+
+@article{Minasny2018Limited,
+  author  = {Minasny, B. and McBratney, A. B.},
+  title   = {Limited effect of organic matter on soil available water capacity},
+  journal = {European Journal of Soil Science},
+  year    = {2018},
+  volume  = {69},
+  number  = {1},
+  pages   = {39--47},
+  doi     = {10.1111/ejss.12475}
+}
+
+@article{Razzaghi2020Biochar,
+  author  = {Razzaghi, Fatemeh and Obour, Peter Bilson and Arthur, Emmanuel},
+  title   = {Does biochar improve soil water retention? {A} systematic review and meta-analysis},
+  journal = {Geoderma},
+  year    = {2020},
+  volume  = {361},
+  pages   = {114055},
+  doi     = {10.1016/j.geoderma.2019.114055}
+}
+
+@article{Basche2019Comparing,
+  author  = {Basche, Andrea D. and DeLonge, Marcia S.},
+  title   = {Comparing infiltration rates in soils managed with conventional and alternative farming methods: a meta-analysis},
+  journal = {PLOS ONE},
+  year    = {2019},
+  volume  = {14},
+  number  = {9},
+  pages   = {e0215702},
+  doi     = {10.1371/journal.pone.0215702}
+}
+
+@article{Jarvis2007Review,
+  author  = {Jarvis, N. J.},
+  title   = {A review of non-equilibrium water flow and solute transport in soil macropores: principles, controlling factors and consequences for water quality},
+  journal = {European Journal of Soil Science},
+  year    = {2007},
+  volume  = {58},
+  number  = {3},
+  pages   = {523--546},
+  doi     = {10.1111/j.1365-2389.2007.00915.x}
+}
+
+@article{Fatichi2020Soil,
+  author  = {Fatichi, Simone and Or, Dani and Walko, Robert and Vereecken, Harry and Young, Michael H. and Ghezzehei, Teamrat A. and Hengl, Tomislav and Kollet, Stefan and Agam, Nurit and Avissar, Roni},
+  title   = {Soil structure is an important omission in {E}arth {S}ystem {M}odels},
+  journal = {Nature Communications},
+  year    = {2020},
+  volume  = {11},
+  pages   = {522},
+  doi     = {10.1038/s41467-020-14411-z}
+}
+
+@article{Stonestrom1989Air,
+  author  = {Stonestrom, David A. and Rubin, Jacob},
+  title   = {Air permeability and trapped-air content in two soils},
+  journal = {Water Resources Research},
+  year    = {1989},
+  volume  = {25},
+  number  = {9},
+  pages   = {1947--1958},
+  doi     = {10.1029/WR025i009p01947}
+}
+
+@article{Likos2014Hysteresis,
+  author  = {Likos, William J. and Lu, Ning and Godt, Jonathan W.},
+  title   = {Hysteresis and uncertainty in soil water-retention curve parameters},
+  journal = {Journal of Geotechnical and Geoenvironmental Engineering},
+  year    = {2014},
+  volume  = {140},
+  number  = {4},
+  pages   = {04013050},
+  doi     = {10.1061/(ASCE)GT.1943-5606.0001071}
+}
+
+@article{Pirlot2024How,
+  author  = {Pirlot, Cl{\'e}mence and Renard, Brieuc and De Clerck, Caroline and Degr{\'e}, Aurore},
+  title   = {How does soil water retention change over time? {A} three-year field study under temperate climate},
+  journal = {European Journal of Soil Science},
+  year    = {2024},
+  url     = {https://orbi.uliege.be/handle/2268/321866},
+  note    = {UNVERIFIED: exact title ending, first names, volume and DOI}
+}
+
+%% ------------------------------------------------------------------------
+%% (7) Tropical and Colombian soils
+%% ------------------------------------------------------------------------
+
+@article{Buytaert2006Human,
+  author  = {Buytaert, Wouter and C{\'e}lleri, Rolando and De Bi{\`e}vre, Bert and Cisneros, Felipe and Wyseure, Guido and Deckers, Jozef and Hofstede, Robert},
+  title   = {Human impact on the hydrology of the {A}ndean p{\'a}ramos},
+  journal = {Earth-Science Reviews},
+  year    = {2006},
+  volume  = {79},
+  number  = {1--2},
+  pages   = {53--72},
+  doi     = {10.1016/j.earscirev.2006.06.002}
+}
+
+@article{Buytaert2002Impact,
+  author  = {Buytaert, W. and Deckers, J. and Dercon, G. and De Bi{\`e}vre, B. and Poesen, J. and Govers, G.},
+  title   = {Impact of land use changes on the hydrological properties of volcanic ash soils in {S}outh {E}cuador},
+  journal = {Soil Use and Management},
+  year    = {2002},
+  volume  = {18},
+  number  = {2},
+  pages   = {94--100},
+  doi     = {10.1111/j.1475-2743.2002.tb00226.x},
+  note    = {Cited in the report as "SUM 2002". UNVERIFIED: authorship, pages and DOI}
+}
+
+@article{Dorel2000Porosity,
+  author  = {Dorel, M. and Roger-Estrade, J. and Manichon, H. and Delvaux, B.},
+  title   = {Porosity and soil water properties of {C}aribbean volcanic ash soils},
+  journal = {Soil Use and Management},
+  year    = {2000},
+  volume  = {16},
+  number  = {2},
+  pages   = {133--140},
+  doi     = {10.1111/j.1475-2743.2000.tb00188.x}
+}
+
+@article{Catena2021Paramo,
+  author  = {{Catena}},
+  title   = {Influence of land use on hydro-physical soil properties of {A}ndean p{\'a}ramos},
+  journal = {Catena},
+  year    = {2021},
+  url     = {https://www.sciencedirect.com/science/article/abs/pii/S0341816221000862},
+  note    = {UNVERIFIED: authors, volume and article number}
+}
+
+@article{Tomasella1998Estimating,
+  author  = {Tomasella, J. and Hodnett, M. G.},
+  title   = {Estimating soil water retention characteristics from limited data in {B}razilian {A}mazonia},
+  journal = {Soil Science},
+  year    = {1998},
+  volume  = {163},
+  number  = {3},
+  pages   = {190--202}
+}
+
+@article{Tomasella2000Pedotransfer,
+  author  = {Tomasella, Javier and Hodnett, Martin G. and Rossato, Luciana},
+  title   = {Pedotransfer functions for the estimation of soil water retention in {B}razilian soils},
+  journal = {Soil Science Society of America Journal},
+  year    = {2000},
+  volume  = {64},
+  number  = {1},
+  pages   = {327--338},
+  doi     = {10.2136/sssaj2000.641327x}
+}
+
+@article{Hodnett2002Marked,
+  author  = {Hodnett, M. G. and Tomasella, J.},
+  title   = {Marked differences between van {G}enuchten soil water-retention parameters for temperate and tropical soils: a new water-retention pedo-transfer functions developed for tropical soils},
+  journal = {Geoderma},
+  year    = {2002},
+  volume  = {108},
+  number  = {3--4},
+  pages   = {155--180},
+  doi     = {10.1016/S0016-7061(02)00105-2}
+}
+
+@article{vandenBerg1997Pedotransfer,
+  author  = {van den Berg, M. and Klamt, E. and van Reeuwijk, L. P. and Sombroek, W. G.},
+  title   = {Pedotransfer functions for the estimation of moisture retention characteristics of {F}erralsols and related soils},
+  journal = {Geoderma},
+  year    = {1997},
+  volume  = {78},
+  number  = {3--4},
+  pages   = {161--180},
+  doi     = {10.1016/S0016-7061(97)00045-1}
+}
+
+@article{Minasny2011Predicting,
+  author  = {Minasny, Budiman and Hartemink, Alfred E.},
+  title   = {Predicting soil properties in the tropics},
+  journal = {Earth-Science Reviews},
+  year    = {2011},
+  volume  = {106},
+  number  = {1--2},
+  pages   = {52--62},
+  doi     = {10.1016/j.earscirev.2011.01.005}
+}
+
+@article{OttoniFilho2014Revisiting,
+  author  = {Ottoni Filho, Theophilo Benedicto and Ottoni, Marta Vasconcelos and de Oliveira, Murilo Basso and de Macedo, Jos{\'e} Ronaldo and Reichardt, Klaus},
+  title   = {Revisiting field capacity ({FC}): variation of definition of {FC} and its estimation from pedotransfer functions},
+  journal = {Revista Brasileira de Ci{\^e}ncia do Solo},
+  year    = {2014},
+  volume  = {38},
+  number  = {6},
+  pages   = {1750--1764},
+  url     = {https://www.rbcsjournal.org/article/revisiting-field-capacity-fc-variation-of-definition-of-fc-and-its-estimation-from-pedotransfer-functions/},
+  note    = {UNVERIFIED: co-author list and pages}
+}
+
+@article{Ottoni2018HYBRAS,
+  author  = {Ottoni, Marta Vasconcelos and Ottoni Filho, Theophilo Benedicto and Schaap, Marcel G. and Lopes-Assad, Maria Leonor R. C. and Rotunno Filho, Otto Corr{\^e}a},
+  title   = {Hydrophysical database for {B}razilian soils ({HYBRAS}) and pedotransfer functions for water retention},
+  journal = {Vadose Zone Journal},
+  year    = {2018},
+  volume  = {17},
+  number  = {1},
+  pages   = {170095},
+  doi     = {10.2136/vzj2017.05.0095}
+}
+
+@article{BravoPena2025Andosol,
+  author  = {Bravo Pe{\~n}a and others},
+  title   = {Dynamic in-situ unimodal and bimodal soil water retention in a compacted {A}ndosol},
+  journal = {Vadose Zone Journal},
+  year    = {2025},
+  doi     = {10.1002/vzj2.70021},
+  note    = {UNVERIFIED: authors and exact title (descriptive title), volume}
+}
+
+@article{Casamitjana2020Soil,
+  author  = {Casamitjana, Mar{\'\i}a and Torres-Madro{\~n}ero, Maria C. and Bernal-Riobo, Jaime and Varga, Diego},
+  title   = {Soil moisture analysis by means of multispectral images according to land use and spatial resolution on andosols in the {C}olombian {A}ndes},
+  journal = {Applied Sciences},
+  year    = {2020},
+  volume  = {10},
+  number  = {16},
+  pages   = {5540},
+  doi     = {10.3390/app10165540}
+}
+
+@article{LinceSalazar2019Variabilidad,
+  author  = {Lince-Salazar, Luz Adriana and Sadeghian, Siavosh},
+  title   = {Variabilidad espacial de propiedades f{\'\i}sicas de {A}ndisoles en el {Q}uind{\'\i}o},
+  journal = {Revista Cenicaf{\'e}},
+  year    = {2019},
+  volume  = {70},
+  number  = {1},
+  pages   = {65--80},
+  url     = {https://publicaciones.cenicafe.org/index.php/cenicafe/article/view/3287},
+  note    = {UNVERIFIED: exact title (descriptive Spanish title)}
+}
+
+@article{Lozano2005ActaAgronomica,
+  author  = {Lozano and others},
+  title   = {Evaluaci{\'o}n del indicador de conductividad hidr{\'a}ulica del {USDA} ({R}osetta) en cuatro suelos del {V}alle del {C}auca},
+  journal = {Acta Agron{\'o}mica},
+  year    = {2005},
+  url     = {https://revistas.unal.edu.co/index.php/acta_agronomica/article/view/113},
+  note    = {UNVERIFIED: authors, exact title (descriptive), volume and pages}
+}
+
+@article{Frontiers2022Taluma,
+  author  = {{AGROSAVIA Taluma study}},
+  title   = {Soil water retention and available water capacity at the {T}aluma research station, {P}uerto {L}{\'o}pez, {M}eta},
+  journal = {Frontiers in Environmental Science},
+  year    = {2022},
+  volume  = {10},
+  pages   = {687804},
+  doi     = {10.3389/fenvs.2022.687804},
+  note    = {UNVERIFIED: authors and exact title (descriptive title)}
+}
+
+@article{RIAA_CoffeeZone,
+  author  = {{RIAA / UNAD}},
+  title   = {Propiedades hidrof{\'\i}sicas de suelos de la zona cafetera colombiana y su relaci{\'o}n con el material parental},
+  journal = {Revista de Investigaci{\'o}n Agraria y Ambiental (RIAA)},
+  url     = {https://portal.amelica.org/ameli/journal/130/1303815003/html/},
+  note    = {UNVERIFIED: authors, year, volume and pages}
+}
+
+@article{RFNAM62_Andic,
+  author  = {{Revista Facultad Nacional de Agronom{\'\i}a Medell{\'\i}n}},
+  title   = {Andic soil properties and classification criteria (bulk density, phosphate retention, {Al}o + 1/2 {Fe}o)},
+  journal = {Revista Facultad Nacional de Agronom{\'\i}a Medell{\'\i}n},
+  year    = {2009},
+  volume  = {62},
+  number  = {1},
+  url     = {http://www.scielo.org.co/pdf/rfnam/v62n1/a17v62n1.pdf},
+  note    = {UNVERIFIED: authors and exact title (descriptive title)}
+}
+
+@article{RFNAM_Other,
+  author  = {{Revista Facultad Nacional de Agronom{\'\i}a Medell{\'\i}n}},
+  title   = {Article on Colombian soil water retention (download id 36490)},
+  journal = {Revista Facultad Nacional de Agronom{\'\i}a Medell{\'\i}n},
+  url     = {https://revistas.unal.edu.co/index.php/refame/article/download/36490/46747?inline=1},
+  note    = {UNVERIFIED: authors, title and year}
+}
+
+@article{Redalyc_Andisol,
+  author  = {{Redalyc}},
+  title   = {Structural stability and water retention of a {C}olombian {A}ndisol under forest and other land uses},
+  url     = {https://www.redalyc.org/pdf/573/57311108002.pdf},
+  note    = {UNVERIFIED: authors, title, journal and year (descriptive title)}
+}
+
+@article{INIFAP_Andosol,
+  author  = {{Revista Mexicana de Ciencias Forestales}},
+  title   = {Validation of pedotransfer functions for field capacity and wilting point in {M}exican {A}ndosols under land-use change},
+  journal = {Revista Mexicana de Ciencias Forestales},
+  url     = {https://cienciasforestales.inifap.gob.mx/index.php/forestales/article/view/666},
+  note    = {UNVERIFIED: authors, title and year (descriptive title)}
+}
+
+@article{RBEAA_FC,
+  author  = {{Revista Brasileira de Engenharia Agr{\'\i}cola e Ambiental}},
+  title   = {Field capacity of {B}razilian {O}xisols ({M}ato {G}rosso) determined on undisturbed samples},
+  journal = {Revista Brasileira de Engenharia Agr{\'\i}cola e Ambiental},
+  url     = {http://www.scielo.br/j/rbeaa/a/rVLNhmgQnMYMcm4FWyVxNWn/?lang=en},
+  note    = {UNVERIFIED: authors, title and year (descriptive title)}
+}
+
+@misc{RainfallSeasonalityColombia,
+  title        = {Estacionalidad de la lluvia en {C}olombia},
+  howpublished = {ResearchGate publication 309538732},
+  url          = {https://researchgate.net/publication/309538732_Estacionalidad_de_la_lluvia_en_Colombia},
+  note         = {UNVERIFIED: authors, year and venue}
+}
+
+@phdthesis{UNAL2026Thesis,
+  author = {{Universidad Nacional de Colombia}},
+  title  = {Sensor-based soil moisture monitoring at eight sites in {M}eta and {V}ichada},
+  school = {Universidad Nacional de Colombia},
+  year   = {2026},
+  url    = {https://repositorio.unal.edu.co/collections/af38aa88-f50a-4238-a3e4-73e7da6d590c},
+  note   = {UNVERIFIED: author and exact title (descriptive title); link is to a repository collection}
+}
+
+@phdthesis{CIRADThesis,
+  author = {{CIRAD}},
+  title  = {Thesis on volcanic-ash soil water properties},
+  school = {CIRAD},
+  url    = {https://agritrop.cirad.fr/564041/1/document_564041.pdf},
+  note   = {UNVERIFIED: author, title, institution and year (placeholder title)}
+}
+
+%% ------------------------------------------------------------------------
+%% (8) Manuals, glossaries, institutional and grey literature
+%% ------------------------------------------------------------------------
+
+@misc{SSSAGlossary,
+  author       = {{Soil Science Society of America}},
+  title        = {Glossary of Soil Science Terms: field capacity},
+  howpublished = {Online glossary},
+  url          = {https://www.soils.org/publications/soils-glossary}
+}
+
+@misc{NRCSGlossary,
+  author       = {{USDA Natural Resources Conservation Service}},
+  title        = {A Glossary of Terms Used in Soil Survey and Classification},
+  year         = {2022},
+  url          = {https://www.nrcs.usda.gov/sites/default/files/2022-08/A_Glossary_of_Terms_Used_in_Soil_Survey_and_Classification.pdf}
+}
+
+@misc{ScienceDirectTopicsFC,
+  author       = {{Elsevier}},
+  title        = {Field capacity (ScienceDirect Topics overview)},
+  url          = {https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/field-capacity}
+}
+
+@misc{OSUExtensionFC,
+  author       = {{Oklahoma State University Extension}},
+  title        = {Determining field capacity using continuous soil water content data},
+  howpublished = {Fact Sheet PSS-2403},
+  year         = {2025},
+  url          = {https://extension.okstate.edu/fact-sheets/determining-field-capacity-using-continuous-soil-water-content-data.html}
+}
+
+@techreport{WelshGov2021WaterStorage,
+  author      = {{Welsh Government}},
+  title       = {Water storage capacity of soils: scoping report},
+  institution = {Welsh Government},
+  year        = {2021},
+  url         = {https://www.gov.wales/sites/default/files/publications/2021-04/water-storage-capacity-soils-scoping-report.pdf}
+}
+
+@misc{APSIMSoilWat,
+  author       = {{APSIM Initiative}},
+  title        = {{SoilWat} module documentation},
+  url          = {https://www.apsim.info/documentation/model-documentation/soil-modules-documentation/soilwat/}
+}
+
+@techreport{DNRME2017PAWC,
+  author      = {{Queensland Department of Natural Resources, Mines and Energy}},
+  title       = {Methods for estimating plant available water capacity ({PAWC}) and water retention},
+  institution = {DNRME / APSIM},
+  year        = {2017},
+  url         = {https://www.apsim.info/wp-content/uploads/2021/01/Methods-for-PAWWRC-estimation_DNRME.pdf},
+  note        = {UNVERIFIED: exact title}
+}
+
+@misc{SmapAPSIM,
+  title        = {S-map parameters for {APSIM}},
+  howpublished = {ResearchGate publication 358399559},
+  url          = {https://www.researchgate.net/publication/358399559_S-map_parameters_for_APSIM},
+  note         = {UNVERIFIED: authors, year and venue}
+}
+
+@misc{VICDefinitions,
+  author       = {{UW Hydro}},
+  title        = {{VIC} model documentation: definitions},
+  url          = {https://github.com/UW-Hydro/VIC/blob/master/docs/Documentation/Definitions.md}
+}
+
+@misc{JULESBeta,
+  title        = {{JULES} soil moisture stress factor $\beta$ (figure)},
+  howpublished = {ResearchGate figure},
+  url          = {https://www.researchgate.net/figure/JULES-soil-moisture-stress-factor-b-with-p00-solid-line-and-p003-dashed-line-The_fig1_334672145},
+  note         = {Secondary source for the JULES stress function}
+}
+
+@misc{AMSPaper72752,
+  author       = {{American Meteorological Society}},
+  title        = {Conference paper 72752 (secondary source on land-surface model field capacity)},
+  url          = {https://ams.confex.com/ams/pdfpapers/72752.pdf},
+  note         = {UNVERIFIED: authors, title and year}
+}
+
+@misc{EGU2015_1826,
+  title        = {{EGU} General Assembly 2015 abstract {EGU2015-1826}},
+  howpublished = {Geophysical Research Abstracts, Vol. 17},
+  year         = {2015},
+  url          = {https://meetingorganizer.copernicus.org/EGU2015/EGU2015-1826.pdf},
+  note         = {UNVERIFIED: authors and title}
+}
+
+@misc{CROSBI1215156,
+  title        = {CROSBI record 1215156 (Croatian independent test of {E}uropean pedotransfer functions)},
+  url          = {https://www.bib.irb.hr/1215156},
+  note         = {UNVERIFIED: authors, title and venue}
+}
+
+@misc{DOAJ014871,
+  title        = {DOAJ article 014871c157e241738ed49c75cddf83bf},
+  url          = {https://doaj.org/article/014871c157e241738ed49c75cddf83bf},
+  note         = {UNVERIFIED: authors, title and venue}
+}
+
+@misc{FAOAndosolNotes,
+  author       = {{FAO}},
+  title        = {Andosols (World Reference Base lecture notes)},
+  url          = {https://www.eweb.unex.es/eweb/edafo/FAO/Andosol.htm}
+}
+
+@techreport{IGAC_BalanceHidrico,
+  author      = {{Instituto Geogr{\'a}fico Agust{\'\i}n Codazzi}},
+  title       = {Balance h{\'\i}drico y sus aplicaciones ({IN-AGR-PC08-01}, versi{\'o}n 2)},
+  institution = {IGAC},
+  address     = {Bogot{\'a}},
+  url         = {https://www.igac.gov.co/sites/default/files/listadomaestro/IN-AGR-PC08-01%20V2%20Balance%20H%C3%ADdrico%20y%20sus%20Aplicaciones.pdf}
+}
+
+@article{AgronColomb_AquaCrop,
+  author  = {{Agronom{\'\i}a Colombiana}},
+  title   = {Calibration of {A}qua{C}rop for maize ({ICA} {V156}) at {C}hinchin{\'a}, {P}almira and {C}eret{\'e}},
+  journal = {Agronom{\'\i}a Colombiana},
+  url     = {https://revistas.unal.edu.co/index.php/agrocol/article/view/45939},
+  note    = {UNVERIFIED: authors, exact title (descriptive title), year, volume and pages}
+}
+
+@misc{AGROSAVIA_Repository,
+  author       = {{AGROSAVIA}},
+  title        = {AGROSAVIA repository item 6101a8a9 (soil laboratory water retention methods)},
+  url          = {https://repository.agrosavia.co/items/6101a8a9-9b32-4ab2-893d-f9866e5a4d02},
+  note         = {UNVERIFIED: title and year}
+}
+
+@misc{AGROSAVIA_VIVO,
+  author       = {{AGROSAVIA}},
+  title        = {AGROSAVIA VIVO researcher profile serana4},
+  url          = {https://vivo.agrosavia.co/display/serana4}
+}
